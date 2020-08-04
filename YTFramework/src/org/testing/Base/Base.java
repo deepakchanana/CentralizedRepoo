@@ -20,7 +20,7 @@ public class Base {
 	driver=new ChromeDriver();
 	driver.get("https://www.url.com");
 	driver.manage().window().maximize();
-	
+	System.out.println("changes done");
 	File f=new File("../YTFramework/Locators.properties");
 	FileInputStream fi=new FileInputStream(f); 
 	pr=new Properties();
